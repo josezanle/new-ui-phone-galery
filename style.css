@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+/*este es el contenedor general,que le da forma de dispositivo mobil*/
+.card{
+
+    width: 18.5em;
+    height: 85vh;
+    padding: 1em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    background: #000;
+
+}
+/*aqui encontramos los items basicos de cada mobil,tales como hora,notificaciones y sistema wifi*/
+.top{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+
+
+
+}
+.top .span1{
+    flex:1;
+    color:white;
+}
+.top .span2{
+    flex:5;
+    color:white;
+    text-align: right;
+
+}
+.back{
+    flex:1;
+    color:white;
+    display: flex;
+    width: 100%;
+    flex-flow: row;
+    justify-content: flex-start;
+
+}
+.back span{
+    flex: 1;
+
+}
+
+
+.swiper-container{
+    flex:6;
+    border-radius: 1em;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+/*en esta zona se establecio cada imagen,en cada div,utilice la propiedad background,para centrar y a justar cada una de ellas*/
+.swiper-wrapper :nth-child(1) {
+                                background:url(1.jpg) center no-repeat;
+                                background-size: cover;
+                                }
+.swiper-wrapper :nth-child(2) {
+                                background:url(2.jpg) center no-repeat;
+                                background-size: cover;
+         }
+.swiper-wrapper :nth-child(3) {
+                                background:url(3.jpg) center no-repeat;
+                                background-size: cover;
+             }
+.swiper-wrapper :nth-child(4) {
+                                background:url(4.jpg) center no-repeat;
+                                background-size: cover;
+                 }
+.swiper-wrapper :nth-child(5) {
+                                background:url(5.jpg) center no-repeat;
+                                background-size: cover;
+                     }
+
+.swiper-wrapper :nth-child(6) {
+                        background:url(2.jpg) center no-repeat;
+                        background-size: cover;
+ }
+.swiper-wrapper :nth-child(7) {
+                        background:url(3.jpg) center no-repeat;
+                        background-size: cover;
+     }
+.swiper-wrapper :nth-child(8) {
+                        background:url(4.jpg) center no-repeat;
+                        background-size: cover;
+         }
+.swiper-wrapper :nth-child(9) {
+                        background:url(5.jpg) center no-repeat;
+                        background-size: cover;
+             }
+             .swiper-wrapper :nth-child(10) {
+                background:url(1.jpg) center no-repeat;
+                background-size: cover;
+                }
+
+/*En esta seccion ,se ubica la zona menu del mobil,de izquierda a derecha, "atras","inicio" y "minizar apps"*/
+.bottom {
+    flex: 1;
+    width: 100%;
+    color:white;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+}
+.span3
+{
+    flex:1;
+    align-self: center;
+    text-align: center;
+}
+.span4
+{
+    flex:1;
+ text-align: center;
+ align-self: center;
+}
+.span5
+{
+    flex:1;
+    text-align: center;
+    align-self: center;
+}
