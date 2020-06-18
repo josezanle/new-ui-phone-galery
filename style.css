@@ -93,23 +93,23 @@ body{
                      }
 
 .swiper-wrapper :nth-child(6) {
-                        background:url(2.jpg) center no-repeat;
+                        background:url(6.jpg) center no-repeat;
                         background-size: cover;
  }
 .swiper-wrapper :nth-child(7) {
-                        background:url(3.jpg) center no-repeat;
+                        background:url(7.jpg) center no-repeat;
                         background-size: cover;
      }
 .swiper-wrapper :nth-child(8) {
-                        background:url(4.jpg) center no-repeat;
+                        background:url(8.jpg) center no-repeat;
                         background-size: cover;
          }
 .swiper-wrapper :nth-child(9) {
-                        background:url(5.jpg) center no-repeat;
+                        background:url(9.jpg) center no-repeat;
                         background-size: cover;
              }
              .swiper-wrapper :nth-child(10) {
-                background:url(1.jpg) center no-repeat;
+                background:url(10.jpg) center no-repeat;
                 background-size: cover;
                 }
 
